@@ -1,13 +1,7 @@
-# Hotaru JavaScript SDK
+# toBeAnAlphanumericString
 
-The [Hotaru](https://github.com/jsoendermann/HotaruServer) JavaScript SDK.
+A Jasmine matcher that makes sure something is an alphanumeric string. It takes an optional length as parameter. For examples, see spec/toBeAnAlphanumericString.js.
 
-### TODO (before 1.0)
-- User management
-- Cloud functions
-- User persistance
-- Private mode
-- User sync
+### Installation
 
-### TODO (after 1.0)
-- Object sync
+`yarn add to-be-an-alphanumeric-string`
