@@ -1,0 +1,38 @@
+{
+  "name": "to-be-an-alphanumeric-string",
+  "version": "0.1.0",
+  "author": {
+    "name": "Jan Soendermann",
+    "email": "jan.soendermann+npm@gmail.com"
+  },
+  "homepage": "https://github.com/jsoendermann/toBeAnAlphanumericString",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jsoendermann/toBeAnAlphanumericString.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "validator": "^6.1.0"
+  },
+  "scripts": {
+    "build": "babel src -d lib",
+    "prepublish": "npm run build",
+    "test": "node_modules/jasmine/bin/jasmine.js"
+  },
+  "engines": {
+    "node": ">=4.1"
+  },
+  "main": "lib/toBeAnAlphanumericString.js",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-eslint": "^7.0.0",
+    "babel-plugin-transform-async-to-generator": "^6.16.0",
+    "babel-preset-es2015-node": "^6.1.1",
+    "eslint": "^3.8.0",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^1.16.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.4.1",
+    "jasmine": "^2.5.2"
+  }
+}
